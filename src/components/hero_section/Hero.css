@@ -48,5 +48,6 @@ h1 {
     inline-size: 250px;
     overflow-wrap: break-word;
     opacity: 0.2;
+    visibility: hidden;
   }
 }

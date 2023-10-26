@@ -1,0 +1,155 @@
+.hero-cont {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  margin-top: -10%;
+  margin-bottom: 5%;
+  padding: 5px;
+  max-width: 940px;
+
+  height: auto;
+  width: auto;
+}
+/* .grafika {
+  width: 32.3%;
+  height: 50%;
+} */
+.block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 97.3%;
+  padding: 0px;
+}
+.first {
+  width: 57%;
+  height: 300px;
+  padding: 5px 5px 5px 8px;
+}
+.second {
+  width: 40%;
+  height: 300px;
+  padding: 5px;
+}
+.third {
+  width: 31.0%;
+  height: 100%;
+  padding: 3px 5px 5px 8px;
+  margin-top: 7px;
+}
+.fourth {
+  width: 31.0%;
+  height: 100%;
+  padding: 3px;
+  margin-top: 7px;
+}
+.fifth {
+  width: 33.0%;
+  height: 100%;
+  padding: 3px;
+  margin-top: 7px;
+}
+.Title_image1 {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  background-image: url("./images/33.jpg");
+  background-size: cover;
+  background-position: 0 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease-in-out;
+  z-index: 0;
+}
+.Title_image1:hover {
+  transform: scale(1.03);
+}
+.Title_image2 {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  background-image: url("./images/88.jpg");
+  background-size: cover;
+  background-position: 0 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.Title_image3 {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  background-image: url("./images/66.jpg");
+  background-size: cover;
+  background-position: 0 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.Title_image4 {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  background-image: url("./images/77.jpg");
+  background-size: cover;
+  background-position: 0 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.Title_image5 {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  background-image: url("./images/11.jpg");
+  background-size: cover;
+  background-position: 0 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.Hero_title {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  float: left;
+  overflow: hidden;
+}
+
+p {
+  position: absolute;
+  color: rgb(249, 249, 251);
+  z-index: 7;
+  top: 30px;
+  left: 30px;
+  font-size: 30px;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .block {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .grafika {
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+  }
+  .second {
+    margin-top: 10px;
+  }
+  .fifth {
+    margin-bottom: 10px;
+  }
+}
