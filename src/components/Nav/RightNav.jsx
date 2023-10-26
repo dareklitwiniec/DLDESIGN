@@ -18,7 +18,7 @@ const Ul = styled.ul`
     
     &:hover {
       filter: brightness(0.45);
-      color: Black;
+      color: red;
       text-shadow: -4px 6px 32px rgba(251, 253, 253, 1);
 
     }
