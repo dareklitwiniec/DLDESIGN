@@ -18,8 +18,8 @@ const Ul = styled.ul`
     
     &:hover {
       filter: brightness(0.45);
-      color: red;
-      text-shadow: -4px 6px 32px rgba(251, 253, 253, 1);
+      color: yellow;
+      text-shadow: 2px 0px 19px black;
 
     }
     
@@ -27,7 +27,7 @@ const Ul = styled.ul`
 
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #64646469;
+    background-color: #646464cf;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: -20px;
@@ -44,6 +44,9 @@ const Ul = styled.ul`
 const linkStyle = {
   
   textDecoration: "none",
+  textShadow: "2px 0px 19px rgba(249, 249, 251, 1)",
+  
+  
   
 };
 

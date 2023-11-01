@@ -5,19 +5,15 @@ import { Link } from "react-router-dom";
 
 const Nav = styled.nav`
   width: 100%;
- 
   height: 55px;
   position: absolute;
-  
-  
-
-
   padding: 20px 55px;
   display: flex;
   justify-content: space-between;
   font-family: "Lato", sans-serif;
   font-weight: 700;
   color: white;
+  z-index: 5;
   @media (max-width: 768px) {
     padding: 10px 10px;
   }

@@ -6,7 +6,7 @@
   background-color: #fff;
   margin-top: -10%;
   margin-bottom: 5%;
-  padding: 5px;
+  padding: 5px 8px 5px 5px;
   max-width: 940px;
 
   height: auto;
@@ -126,30 +126,48 @@
   overflow: hidden;
 }
 
-p {
+span {
   position: absolute;
   color: rgb(249, 249, 251);
   z-index: 7;
-  top: 30px;
+  top: 15px;
   left: 30px;
   font-size: 30px;
   font-weight: 500;
 }
+.col1 {
+  color: #000;
+}
+
 @media (max-width: 768px) {
+  .hero-cont {
+    
+    margin-top: -10%;
+    margin-bottom: 5%;
+    padding: 5px 0px 5px 0px;
+    max-width: 940px;
+  
+    height: auto;
+    width: auto;
+  }
   .block {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
   .grafika {
-    width: 100%;
+    width: 100vw;
     height: 300px;
-    padding: 5px;
+    padding: 5px 0px 5px 0px;
   }
   .second {
-    margin-top: 10px;
+    margin-top: 5px;
   }
   .fifth {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+  }
+  .first {
+    width: 100vw;
+   
   }
 }
