@@ -15,7 +15,7 @@ const Nav = styled.nav`
   color: white;
   z-index: 5;
   @media (max-width: 768px) {
-    padding: 10px 10px;
+    padding: 3px 0px;
   }
   .logo {
     padding: 10px;
