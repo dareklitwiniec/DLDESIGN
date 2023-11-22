@@ -5,6 +5,7 @@ import { Shop } from "./pages/shop/shop";
 import { Contact } from "./pages/contact";
 import { About } from "./components/About/about";
 import { Gallery } from "./components/Gallery/gallery";
+import { Pko } from "./components/pkobp/pko";
 import Footer from "./components/footer/Footer";
 
 import { ShopContextProvider } from "./context/shop-context";
@@ -21,6 +22,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/pko" element={<Pko />} />
           </Routes>
         </Router>
       </ShopContextProvider>
