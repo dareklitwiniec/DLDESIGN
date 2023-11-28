@@ -1,10 +1,14 @@
 import styles from "./Footer.module.css";
 
+const today = new Date();
+
 export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <img src="/logo.svg" alt="Logo" className={styles.logo} />
+      <div class="">
+        &copy; {today.getFullYear()} DLDESIGN
+        </div>
       </footer>
     </>
   );
