@@ -6,6 +6,7 @@ import { Contact } from "./pages/contact";
 import { About } from "./components/About/about";
 import { Gallery } from "./components/Gallery/gallery";
 import { Pko } from "./components/pkobp/pko";
+import { Foto } from "./components/foto/foto";
 import Footer from "./components/footer/Footer";
 
 import { ShopContextProvider } from "./context/shop-context";
@@ -23,6 +24,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/pko" element={<Pko />} />
+            <Route path="/foto" element={<Foto />} />
           </Routes>
         </Router>
       </ShopContextProvider>

@@ -17,9 +17,10 @@ const Ul = styled.ul`
     text-transform: uppercase;
     
     &:hover {
-      filter: brightness(0.45);
-      color: yellow;
+      // filter: brightness(0.45);
+      color: #fff;
       text-shadow: 2px 0px 19px black;
+      font-weight: 700;
 
     }
     
