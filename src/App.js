@@ -7,8 +7,10 @@ import { About } from "./components/About/about";
 import { Gallery } from "./components/Gallery/gallery";
 import { Pko } from "./components/pkobp/pko";
 import { Foto } from "./components/foto/foto";
+import { Portfolio } from "./components/portfolio/page";
+import { Category } from "./components/portfolio/[category]/page";
+import { Layout } from "./components/portfolio/layout";
 import Footer from "./components/footer/Footer";
-
 import { ShopContextProvider } from "./context/shop-context";
 import HeroOver from "./components/hero_section/HeroOver";
 
@@ -25,6 +27,9 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/pko" element={<Pko />} />
             <Route path="/foto" element={<Foto />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/category/page" element={<Category />} />
+            <Route path="/layout" element={<Layout />} />
           </Routes>
         </Router>
       </ShopContextProvider>

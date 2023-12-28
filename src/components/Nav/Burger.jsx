@@ -14,15 +14,15 @@ const StyledBurger = styled.div`
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: .4rem;
+    height: 1.4rem;
   }
   div {
-    width: 2rem;
-    height: 0.25rem;
+    width: 1.4rem;
+    height: .2rem;
     background-color: ${({ open }) => (open ? "#fff" : "#fff")};
     border-radius: 10px;
-    transform-origin: 1px;
+    transform-origin: 0.3px;
     transition: all 0.3s linear;
     &:nth-child(1) {
       transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
