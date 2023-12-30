@@ -59,7 +59,8 @@ const RightNav = ({ open }) => {
       <Link to="/about" style={linkStyle}> <li >About</li></Link>
       <Link to="/contact"style={linkStyle}><li>Contact</li></Link>
       <Link to="/gallery"style={linkStyle}><li>Gallery</li></Link>
-      <Link to="/gallery"style={linkStyle}><li></li></Link>
+      <Link to="/example"style={linkStyle}><li>Example</li></Link>
+      <Link to="/foto"style={linkStyle}><li></li></Link>
       <li></li>
     
       

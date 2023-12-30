@@ -13,7 +13,7 @@ const Container = () => {
         </div>
         <div className="grafika second">
           <div className="Hero_title">
-            <span>Grafika</span>
+            <span>Graphic design</span>
             <div className="Title_image2"></div>
           </div>
         </div>
@@ -25,13 +25,13 @@ const Container = () => {
         </div>
         <div className="grafika fourth">
           <div className="Hero_title">
-            <span>Identyfikacja</span>
+            <span>Visual identification</span>
             <div className="Title_image4"></div>
           </div>
         </div>
         <div className="grafika fifth">
           <div className="Hero_title">
-            <span className="col1">Fotografia</span>
+            <span className="col1">Photography</span>
             <div className="Title_image5"></div>
           </div>
         </div>

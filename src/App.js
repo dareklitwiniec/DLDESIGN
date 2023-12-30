@@ -7,6 +7,7 @@ import { About } from "./components/About/about";
 import { Gallery } from "./components/Gallery/gallery";
 import { Pko } from "./components/pkobp/pko";
 import { Foto } from "./components/foto/foto";
+import { Example } from "./components/example/example";
 import { Portfolio } from "./components/portfolio/page";
 import { Category } from "./components/portfolio/[category]/page";
 import { Layout } from "./components/portfolio/layout";
@@ -27,8 +28,9 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/pko" element={<Pko />} />
             <Route path="/foto" element={<Foto />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/category/page" element={<Category />} />
+            <Route path="/example" element={<Example />} />
+            
+            <Route path="/category" element={<Category />} />
             <Route path="/layout" element={<Layout />} />
           </Routes>
         </Router>

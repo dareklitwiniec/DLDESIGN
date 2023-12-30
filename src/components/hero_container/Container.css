@@ -3,11 +3,11 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fff;
+  background-color: #d6d6d6;
   margin-top: -10%;
   margin-bottom: 5%;
-  padding: 5px 8px 5px 5px;
-  max-width: 940px;
+  /* padding: 5px 8px 5px 5px; */
+  max-width: 893px;
 
   height: auto;
   width: auto;
@@ -21,37 +21,37 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
+  /* width: 100%; */
   height: 97.3%;
-  padding: 0px;
+  padding: 3px;
 }
 .first {
-  width: 57%;
+  width: 58.5%;
   height: 300px;
-  padding: 5px 5px 5px 8px;
+  padding: 3px;
 }
 .second {
   width: 40%;
   height: 300px;
-  padding: 5px;
+  padding: 3px;
 }
 .third {
-  width: 31.0%;
-  height: 100%;
-  padding: 3px 5px 5px 8px;
-  margin-top: 7px;
-}
-.fourth {
-  width: 31.0%;
+  width: 32.3%;
   height: 100%;
   padding: 3px;
-  margin-top: 7px;
+  /* margin-top: 7px; */
+}
+.fourth {
+  width: 32.0%;
+  height: 100%;
+  padding: 3px;
+  /* margin-top: 7px; */
 }
 .fifth {
   width: 33.0%;
   height: 100%;
   padding: 3px;
-  margin-top: 7px;
+  /* margin-top: 7px; */
 }
 .Title_image1 {
   position: absolute;
@@ -132,8 +132,8 @@ span {
   z-index: 7;
   top: 15px;
   left: 30px;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 400;
 }
 .col1 {
   color: #000;

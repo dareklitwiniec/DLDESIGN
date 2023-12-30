@@ -6,7 +6,7 @@ const HeroOver = () => {
   return (
     <>
       <div className="mag">
-        <h1>Niech magia będzie z Tobą</h1>
+        <h1>May the magic be with you</h1>
       </div>
       <div className="cont"></div>
     </>
