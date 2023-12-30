@@ -23,35 +23,36 @@
   justify-content: space-between;
   /* width: 100%; */
   height: 97.3%;
-  padding: 3px;
+  padding: 4px;
+  
 }
 .first {
-  width: 58.5%;
+  width: 58.7%;
   height: 300px;
   padding: 3px;
 }
 .second {
-  width: 40%;
+  width: 41.3%;
   height: 300px;
   padding: 3px;
 }
 .third {
-  width: 32.3%;
+  width: 33.2%;
   height: 100%;
   padding: 3px;
-  /* margin-top: 7px; */
+  margin-top: 7px;
 }
 .fourth {
-  width: 32.0%;
+  width: 33.2%;
   height: 100%;
   padding: 3px;
-  /* margin-top: 7px; */
+  margin-top: 7px;
 }
 .fifth {
   width: 33.0%;
   height: 100%;
   padding: 3px;
-  /* margin-top: 7px; */
+  margin-top: 7px;
 }
 .Title_image1 {
   position: absolute;
@@ -154,7 +155,7 @@ span {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 6px 0px 0px 0px;
+    padding: 4px 0px 0px 0px;
   }
   .grafika {
     width: 100vw;
@@ -162,10 +163,17 @@ span {
     padding: 0px;
   }
   .second {
-    padding: 0px;
+    padding: 4px 0px 0px 0px;
+  }
+  .third {
+    padding: 2px 0px 0px 0px;
+    /* margin-top: 7px; */
   }
   .fifth {
-    padding: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  .fourth {
+    padding: 0px 0px 0px 0px;
   }
   .first {
     padding: 0px;

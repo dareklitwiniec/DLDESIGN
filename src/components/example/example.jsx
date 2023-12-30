@@ -15,6 +15,7 @@ const features = [
     return (
         
       <div className={styles.container}>
+        <div className={styles.magback}></div>
         
         <div className={styles.paka}>
           <div>

@@ -1,3 +1,5 @@
+
+
 .cont {
   position: relative;
   top: 0;
@@ -16,6 +18,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+
+@media (max-width: 640px) {
+    .mag {
+        background-image: url("./magia_1.jpg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        /* max-width: 100%; */
+        height: 30vh;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+      }
+  
 }
 h1 {
   position: relative;
@@ -61,8 +80,8 @@ h1 {
     inline-size: 250px;
     overflow-wrap: break-word;
     opacity: 1;
-    bottom: -2rem;
-    margin-right: 5rem;
+    bottom: 1rem;
+    margin-left: 0.3rem;
     /* visibility: hidden; */
   }
   @keyframes moveInBottom {

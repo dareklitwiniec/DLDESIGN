@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 export const About = () => {
   return (
     <>
+    <div className={styles.magback}></div>
     <div className={styles.selectTitle} >Choose a gallery</div>
     <div className={styles.boxe} >
       <div className={styles.items}>

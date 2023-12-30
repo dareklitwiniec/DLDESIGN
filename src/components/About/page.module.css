@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .mainTitle {
     font-size: 500px;
 }
@@ -9,15 +15,17 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    
+   
     /* background-color: red; */
 }
 .selectTitle {
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 50px;
     /* margin: 200px 0; */
     font-size: 50px;
     text-align: center;
+    color: #f8f5f5;
+    
 }
 .items {
     
@@ -46,10 +54,39 @@
 .title {
     position: absolute;
     right: 10px;
-    bottom: 10px;
-    font-size: 40px;
-    font-weight: bold;
+    bottom: 20px;
+    font-size: 20px;
+    
 }
 .item:hover .title {
     color: #53c28b;
+}
+.magback {
+    background-image: url("./magia.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  
+  @media (max-width: 640px) {
+      .magback {
+          background-image: url("./magia_1.jpg");
+          background-size: cover;
+          background-position: top;
+          background-repeat: no-repeat;
+          /* max-width: 100%; */
+          height: 30vh;
+          display: flex;
+          /* flex-direction: column; */
+          align-items: center;
+          justify-content: center;
+        }
+    
 }
