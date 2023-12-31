@@ -5,6 +5,7 @@
     
     background-color: none;
     
+    
 }
 .tyt {
     font-size: 30px;
@@ -13,18 +14,18 @@
 }
 .paka {
     display: grid;
-    
     max-width: 42rem/* 672px */;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     align-items: top;
     margin-left: auto;
     margin-right: auto;
     column-gap: 2rem/* 32px */;
-    row-gap: 4rem/* 64px */;
+    
     padding-left: 1rem/* 16px */;
     padding-right: 1rem/* 16px */;
-    padding-top: 6rem/* 96px */;
-    padding-bottom: 6rem/* 96px */;
+    padding-top: 0.1rem/* 96px */;
+    padding-bottom: 2rem/* 96px */;
+    color: #fbfafa;
  
  
 }
@@ -32,6 +33,8 @@
     .paka {
         padding-top: 8rem/* 128px */;
         padding-bottom: 8rem/* 128px */;
+        
+        
     }
 }
 @media (min-width: 640px) {
@@ -65,7 +68,10 @@
     font-size: 1.875rem/* 30px */;
     line-height: 2.25rem/* 36px */;
     color: rgb(17 24 39 / var(--tw-text-opacity));
-    letter-spacing: -0.025em;
+    /* letter-spacing: -0.025em; */
+    margin: 0;
+    font-weight: normal;
+
 }
 @media (min-width: 640px) {
     .texth2 {
@@ -115,6 +121,7 @@
 }
 @media (min-width: 640px) {
     .images {
+        
         gap: 1.5rem/* 24px */;
         max-width: 200px;
     }

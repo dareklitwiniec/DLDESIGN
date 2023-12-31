@@ -19,7 +19,7 @@ const features = [
         
         <div className={styles.paka}>
           <div>
-            <h2 className={styles.texth2}>Technical Specifications</h2>
+            <h2 className={styles.texth2}>Application and website design</h2>
             <p className={styles.textp}>
               The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coated
               steel divider separates active cards from new ones, or can be used to archive important task lists.

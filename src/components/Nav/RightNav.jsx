@@ -11,7 +11,7 @@ const Ul = styled.ul`
   
  
   li {
-    padding: 18px 20px;
+    padding: 15px 20px;
     color: #fff;
     font-weight: 300;
     text-transform: uppercase;
@@ -28,14 +28,15 @@ const Ul = styled.ul`
 
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #646464cf;
+    background-color: #646464b5;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: -20px;
     right: 0;
     height: 50vh;
     width: 40vw;
-    padding-top: 3.5rem;
+    
+    padding: 50px 9px;
     transition: transform 0.3s ease-in-out;
 
     
