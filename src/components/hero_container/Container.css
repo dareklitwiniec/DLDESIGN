@@ -67,6 +67,7 @@
   right: 0;
   transition: all 0.5s ease-in-out;
   z-index: 0;
+  cursor: pointer;
 }
 .Title_image1:hover {
   transform: scale(1.03);
@@ -82,6 +83,11 @@
   bottom: 0;
   left: 0;
   right: 0;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.Title_image2:hover {
+  transform: scale(1.05);
 }
 .Title_image3 {
   position: absolute;
@@ -94,6 +100,11 @@
   bottom: 0;
   left: 0;
   right: 0;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.Title_image3:hover {
+  transform: scale(1.05);
 }
 .Title_image4 {
   position: absolute;
@@ -106,18 +117,28 @@
   bottom: 0;
   left: 0;
   right: 0;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.Title_image4:hover {
+  transform: scale(1.05);
 }
 .Title_image5 {
   position: absolute;
   height: 100%;
   width: auto;
-  background-image: url("./images/11.jpg");
+  background-image: url("./images/11c.jpg");
   background-size: cover;
   background-position: 0 0;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.Title_image5:hover {
+  transform: scale(1.05);
 }
 .Hero_title {
   position: relative;
@@ -171,9 +192,11 @@ span {
   }
   .fifth {
     padding: 0px 0px 0px 0px;
+    margin-top: 6px;
   }
   .fourth {
     padding: 0px 0px 0px 0px;
+    margin-top: 6px;
   }
   .first {
     padding: 0px;
