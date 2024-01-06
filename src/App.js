@@ -14,6 +14,7 @@ import { Layout } from "./components/portfolio/layout";
 import Footer from "./components/footer/Footer";
 import { ShopContextProvider } from "./context/shop-context";
 import HeroOver from "./components/hero_section/HeroOver";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (

@@ -7,7 +7,7 @@ const HeroOver = () => {
   return (
     <>
       <div className="mag">
-        <h1 >May the magic be with you</h1>
+        <div className="magic">May the magic be with you</div>
         
       </div>
       <div className="cont"></div>
